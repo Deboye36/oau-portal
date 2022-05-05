@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;;
+    line-height: 2.0em;
+}
+
+.page-title{
+    background-color: #AAB6C4;
+    width: 100%;
+    margin: ;
+    overflow: hidden;
+}
+
+.page-title img{
+    width: 100px;
+    margin: 30px 50px 30px 40px;
+    float: left;
+}
+
+.page-title h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1em;
+    color: #010080;
+    margin: 20px;
+}
+
+.page-nav{
+    width: 100%;
+    background-color: #010066;
+    overflow: hidden;
+    color: #FFAE4F;
+    border-bottom: 1px solid #7D9E0C;
+}
+
+.page-nav ul{
+    list-style: none;
+    margin-left: 30px;
+}
+
+.page-nav ul li{
+    display: inline;
+    margin: 20px;
+    float: left;
+    font-size: 19px;
+    font-weight: 100;
+    color: #FFAE4F;
+}
+
+.page-nav ul li a{
+    text-decoration: none;
+    color: #FFAE4F;
+}
+
+.page-nav ul li a:hover{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.page-nav ul li a:visited{
+    color: #fff;
+}
+
+.page-nav p{
+    float: right;
+    margin: 20px 70px 20px 0;
+    padding: ;
+    font-size: 12px;
+}
+
+section{
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+section .page-slide{
+    float: left; 
+    width: 70%;
+    margin: 0;
+}
+
+section .side-info{
+    background-color: #EDEDED;
+    float: right;
+    width: 33.31%;
+    margin-top: -279px;
+}
+
+section .side-info h2{
+    background-color: #808080;
+    color: #FECC57;
+    padding: 18px;
+}
+
+section .side-info h3{
+    margin: 5px;
+}
+
+section .side-info p{
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+.decor{
+    color: red;
+    font-weight: 800;
+}
+
+section.content{
+    width: 100%;
+    background-color: #F8F8F8;
+}
+
+.content .undergraduate{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    align-items: center;
+}
+
+.content .undergraduate h3{
+    padding: 20px;
+    color: #FFAE4F;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.content .undergraduate h4{
+    color: #010080;
+}
+
+.content .undergraduate ul{
+    list-style: none;
+    margin: 10px;
+}
+
+.content .undergraduate ul li{
+    margin: 10px;
+    color: #010080;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.content .undergraduate ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.content .undergraduate ul li a:hover{
+    background-color: rgba(0, 9, 255, .6);
+}
+
+.content .undergraduate-2{
+    width: 33.3%;
+    float: left;
+    margin-top: -30px;
+    padding: 20px;
+}
+
+.content .undergraduate-2 h3{
+    margin-top: 15px;
+    padding: 20px;
+    color: #FFAE4F;
+    font-size: 28px;
+    text-decoration: underline;
+    list-style: url(/eportal/NEW.jpg);
+}
+
+.content .undergraduate-2 p{
+    color: #1100ff;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.content .undergraduate-2 ul{
+    list-style: none;
+}
+
+.content .undergraduate-2 li{
+    padding: 10px;
+    font-size: 19px;
+    color: red;
+    font-weight: 600;
+}
+
+.content .undergraduate-2 li a{
+    color: red;
+    text-decoration: none;
+}
+
+.content .undergraduate-2 li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+content .undergraduate-3{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    align-items: center;
+}
+
+.content .undergraduate-3 h3{
+    padding: 20px;
+    color: #FFAE4F;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+
+.content .undergraduate-3 ul{
+    list-style: none;
+    margin: 10px;
+}
+
+.content .undergraduate-3 ul li{
+    margin: 0;
+    color: #010080;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.content .undergraduate-3 ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.content .undergraduate-3 ul li a:hover{
+    background-color: rgba(0, 9, 255, .7);
+}
+
+footer{
+    width: 100%;
+    background-color: #000;
+    overflow: hidden;
+}
+
+footer .footer-sect-1{
+    width: 33.3%;
+    margin: 15px 50px;
+    float: left;
+}
+
+footer .footer-sect-1 ul{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.footer-sect-1 ul li{
+    font-size: 15px;
+}
+
+.footer-sect-1 ul li a{
+    text-decoration: none;
+    color: #23527C;
+    transition: all .6ms;
+}
+
+.footer-sect-1 ul li a:hover{
+    text-decoration: underline;
+}
+
+footer .footer-sect-2{
+    width: 33.3%;
+    margin: 15px 40px;
+    padding: 0 10px;
+    float: left;
+}
+
+footer .footer-sect-2 ul{
+    list-style: none;
+}
+
+.footer-sect-2 ul li{
+    font-size: 13px;
+    color: white;
+}
+
+.footer-sect-2 ul li a{
+    text-decoration: none;
+    color: #23527C;
+    transition: all .6ms;
+}
+
+.footer-sect-2 ul li a:hover{
+    text-decoration: underline;
+}
+
+.img-end{
+    margin-top: -10px;
+    margin-left: 30px;
+}
